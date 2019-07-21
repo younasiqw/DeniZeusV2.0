@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\features">
+      <UniqueIdentifier>{ea8c0fa1-1f0e-41d4-b233-88c1661cd3db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\overlay">
+      <UniqueIdentifier>{51d73c4a-770a-4f74-a6d4-938987bd3b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\managers">
+      <UniqueIdentifier>{d1bdf570-cc2d-43d1-aba0-5c5903677b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\helpers">
+      <UniqueIdentifier>{e4378591-6887-4870-95ae-3082142f19d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Overlay\draw.h">
+      <Filter>Header Files\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\tools.h">
+      <Filter>Header Files\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\main.h">
+      <Filter>Header Files\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="features\aimbot.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\bhop.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\chams.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\esp.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\glow.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\badresses_manager.h">
+      <Filter>Header Files\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\config_manager.h">
+      <Filter>Header Files\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\entity_manager.h">
+      <Filter>Header Files\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\memory_manager.h">
+      <Filter>Header Files\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\offset_manager.h">
+      <Filter>Header Files\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\config_loader.h">
+      <Filter>Header Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\esp_helpers.h">
+      <Filter>Header Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\json.h">
+      <Filter>Header Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\netvar_scanner.h">
+      <Filter>Header Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\utilites.h">
+      <Filter>Header Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\flash_reducer.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

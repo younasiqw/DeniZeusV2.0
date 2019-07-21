@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeniZeusLauncher", "DeniZeusLauncher\DeniZeusLauncher.vcxproj", "{CB33BBD3-4473-4E63-91AF-784C6DB91811}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeniZeus2.0", "DeniZeus2.0\DeniZeus2.0.vcxproj", "{4B34267C-2C94-4A40-8202-3BC24D0A8AF3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VisibilityCheck", "VisibilityCheck\VisibilityCheck.vcxproj", "{F3E42845-8D56-4BB3-821D-8163AB1337F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB33BBD3-4473-4E63-91AF-784C6DB91811}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{CB33BBD3-4473-4E63-91AF-784C6DB91811}.Debug|x86.ActiveCfg = Debug|Win32
+		{CB33BBD3-4473-4E63-91AF-784C6DB91811}.Debug|x86.Build.0 = Debug|Win32
+		{CB33BBD3-4473-4E63-91AF-784C6DB91811}.Release|Any CPU.ActiveCfg = Release|Win32
+		{CB33BBD3-4473-4E63-91AF-784C6DB91811}.Release|x86.ActiveCfg = Release|Win32
+		{CB33BBD3-4473-4E63-91AF-784C6DB91811}.Release|x86.Build.0 = Release|Win32
+		{4B34267C-2C94-4A40-8202-3BC24D0A8AF3}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{4B34267C-2C94-4A40-8202-3BC24D0A8AF3}.Debug|x86.ActiveCfg = Debug|Win32
+		{4B34267C-2C94-4A40-8202-3BC24D0A8AF3}.Debug|x86.Build.0 = Debug|Win32
+		{4B34267C-2C94-4A40-8202-3BC24D0A8AF3}.Release|Any CPU.ActiveCfg = Release|Win32
+		{4B34267C-2C94-4A40-8202-3BC24D0A8AF3}.Release|x86.ActiveCfg = Release|Win32
+		{4B34267C-2C94-4A40-8202-3BC24D0A8AF3}.Release|x86.Build.0 = Release|Win32
+		{F3E42845-8D56-4BB3-821D-8163AB1337F0}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{F3E42845-8D56-4BB3-821D-8163AB1337F0}.Debug|x86.ActiveCfg = Debug|Win32
+		{F3E42845-8D56-4BB3-821D-8163AB1337F0}.Debug|x86.Build.0 = Debug|Win32
+		{F3E42845-8D56-4BB3-821D-8163AB1337F0}.Release|Any CPU.ActiveCfg = Release|Win32
+		{F3E42845-8D56-4BB3-821D-8163AB1337F0}.Release|x86.ActiveCfg = Release|Win32
+		{F3E42845-8D56-4BB3-821D-8163AB1337F0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8D2282B-949E-42A9-BCDB-ABD0B8ACBD74}
+	EndGlobalSection
+EndGlobal
